@@ -1,0 +1,106 @@
+h1,
+h2 {
+  color: darkblue;
+  text-decoration: solid underline;
+}
+
+.featured p {
+  background-color: lightgray;
+  font-style: italic;
+}
+
+.cta:hover {
+  background-color: purple;
+  color: white;
+}
+
+input:focus {
+  border: solid green;
+  outline: none;
+}
+
+.menu li a:visited {
+  color: gray;
+}
+
+.menu li a:hover {
+  color: orange;
+}
+
+.featured h1::before {
+  content: "🔥";
+}
+
+.cards h2::after {
+  content: "⭐";
+}
+
+.cards div:nth-child(3) {
+  border: 2px dotted blue;
+}
+
+.cards div:nth-child(even) {
+  background-color: yellow;
+}
+
+.cards div:nth-child(odd) {
+  background-color: gray;
+}
+
+input::placeholder {
+  color: lightgray;
+  font-style: italic;
+}
+/* h1,
+h2 {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.featured p {
+  background-color: lightgray;
+  font-style: italic;
+}
+
+.cta:hover {
+  background-color: purple;
+  color: white;
+}
+
+input:focus {
+  border: 2px solid green;
+  outline: none;
+}
+
+.menu li a:visited {
+  color: gray;
+}
+
+.menu li a:hover {
+  color: orange;
+}
+
+.featured h1::before {
+  content: "🔥";
+}
+
+.cards h2::after {
+  content: "⭐";
+}
+
+.cards div:nth-child(3) {
+  border: 2px dotted blue;
+}
+
+.cards div:nth-child(even) {
+  background-color: yellow;
+}
+
+.cards div:nth-child(odd) {
+  background-color: gray;
+}
+
+input::placeholder {
+  color: lightgray;
+  font-style: italic;
+} */

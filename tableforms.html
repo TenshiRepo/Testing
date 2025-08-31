@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form with table</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        border: 2px solid black;
+        padding: 5px;
+        text-align: left;
+      }
+      th {
+        background-color: lightgray;
+      }
+
+      input:focus {
+        background-color: rgb(194, 194, 212);
+      }
+      th:hover {
+        background-color: bisque;
+      }
+
+      td:hover {
+        background-color: brown;
+        color: wheat;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <form action="php.com">
+        <h1>Registration Form</h1>
+
+        <label for="fname">Full name:</label>
+        <input type="text" id="fname" name="full name" />
+        <br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+        <br /><br />
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+        <br /><br />
+
+        <label for="gender">Gender:</label>
+        <input type="radio" name="name" value="Male" checked /> Male
+        <input type="radio" name="name" value="Female" />Female <br /><br />
+
+        <label for="Campus">Campus:</label>
+        <select name="campus" id="campus">
+          <option value="urdaneta">Urdaneta City</option>
+          <option value="stamaria">Sta. Maria</option>
+          <option value="lingayen">Lingayen</option>
+          <option value="bayambang">Bayambang</option>
+        </select>
+        <br /><br />
+
+        <label for="bday">Date of Birth:</label>
+        <input type="date" name="bdate" id="bdate" />
+        <br /><br />
+
+        <label for="comments">Comments:</label>
+        <textarea name="comments" id="commens">
+        The action attribute in the bla daskldakn
+        </textarea>
+        <br /><br />
+        <button>submit</button>
+      </form>
+    </fieldset>
+
+    <table>
+      <h2>Table Elements</h2>
+      <tr>
+        <th>Record No.</th>
+        <th>Full Name</th>
+        <th>Address</th>
+        <th>Actions</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">1</td>
+        <td>Chris Raymundo</td>
+        <td>San Vicente</td>
+        <td>
+          <a href="#">View Details</a> | <a href="#">Delete</a> |
+          <a href="#">Record</a>
+        </td>
+      </tr>
+      <tr>
+        <td>Juan Dela Cruz</td>
+        <td>Baguio</td>
+        <td>
+          <a href="#">View Details</a> | <a href="#">Delete</a> |
+          <a href="#">Record</a>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Pedro Batumbakal</td>
+        <td>Binalonan</td>
+        <td>
+          <a href="#">View Details</a> | <a href="#">Delete</a> |
+          <a href="#">Record</a>
+        </td>
+      </tr>
+      <tr>
+        <td
+          colspan="4"
+          style="
+            text-align: center;
+            background-color: lightgray;
+            font-weight: bold;
+          "
+        >
+          Total Records = 3
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

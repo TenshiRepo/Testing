@@ -1,0 +1,178 @@
+button {
+  background-color: blue;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+  transform: scale(1.05);
+}
+
+li::before {
+  content: "star";
+  color: gold;
+  font-size: 16px;
+}
+
+div p:first-child {
+  font-weight: bold;
+  color: darkred;
+}
+td:hover {
+  background-color: darkcyan;
+}
+table,
+tr,
+td {
+  border: solid black;
+  border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.button {
+  background-color: #ff660f;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 18px;
+  border: none;
+  position: relative;
+  transition: background-color 0.3 ease;
+}
+
+.button::before {
+  content: "🔥";
+}
+
+.button::after {
+  content: "→";
+}
+.button:hover {
+  background-color: #cc5200;
+  transform: scale(1.02);
+}
+
+.descendant-container p {
+  color: darkorange;
+  font-weight: bold;
+}
+
+section > p {
+  color: red;
+  font-style: italic;
+}
+
+h3 + p {
+  color: blue;
+  text-decoration: underline;
+}
+
+h3 ~ p {
+  color: green;
+  font-weight: bold;
+}
+
+* {
+  font-family: Arial;
+  font-size: 1.2rem;
+}
+
+/* button {
+  background-color: black;
+  color: white;
+  padding: 20px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+li::before {
+  color: pink;
+  content: "→";
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+li::selection {
+  background-color: pink;
+}
+
+tr,
+td:hover {
+  background-color: blue;
+}
+
+div p:first-child {
+  font-weight: bold;
+  color: darkblue;
+}
+
+table,
+tr {
+  border: solid black;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  position: relative;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+button::before {
+  margin-right: 5px;
+}
+
+button::after {
+  margin-left: 5px;
+  content: "+";
+}
+
+button:hover {
+  background-color: pink;
+}
+
+.descendant-container p {
+  color: darkorange;
+  font-weight: bold;
+}
+
+section > p {
+  color: red;
+  font-style: italic;
+}
+
+h3 + p {
+  color: blue;
+  text-decoration: underline;
+}
+
+h3 ~ p {
+  color: green;
+  font-weight: bold;
+}
+
+
+* {
+  font-family: arial;
+  font-size: 1.2rem;
+} */
